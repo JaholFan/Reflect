@@ -15,7 +15,7 @@ public class Reflect{
         Object p2 = null;
 
         try {
-            c1 = Class.forName("a.b.c.d.Person");  //获得class
+            c1 = Class.forName(args[0]);  //获得class
         }catch(ClassNotFoundException e){
             System.out.println(e);
         }

@@ -1,13 +1,13 @@
 package a.b.c.d;
-public class Person{
+public class Student{
     private String name;
     private int age;
 
-    public Person(){
-        System.out.println("Person class:Constructor without parameters");
+    public Student(){
+        System.out.println("Student:Constructor without parameters");
     }
-    public Person(String name,int age){
-        System.out.println("Person class:Constructor with parameters");
+    public Student(String name,int age){
+        System.out.println("Student:Constructor with parameters");
         this.name = name;
         this.age = age;
     }
